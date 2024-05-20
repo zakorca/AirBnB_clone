@@ -1,11 +1,14 @@
-#!/usr/bin/python3
+#!/usr/bin/pythpn3
 
-'''state class'''
+"""Defines the State class."""
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    '''
-    define state class
-    '''
-    name = ''
+    """Represent a state.
+    Attributes:
+        name (str): name of the state
+    """
+
+    name = ""
